@@ -8,12 +8,12 @@
 header {
   width: 100%;
   display: flex;
-  padding: 50px 50px;
+  padding: 25px 50px;
   justify-content: space-between;
 }
 header .last-part ul {
   display: flex;
-  gap: 20px;
+  gap: 50px;
 }
 header .last-part ul li {
   list-style: none;
