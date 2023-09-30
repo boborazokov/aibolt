@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+// header seaciton
+
+header{
+    width: 100%;
+    display: flex;
+    padding: 50px 50px;
+    justify-content: space-between;
+    .last-part{
+        ul{
+            display: flex;
+            gap: 20px;
+            li{
+                list-style: none;
+                justify-content: space-between;
+                line-height: 100px;
+                a{
+                    text-decoration: none;
+                    color: #C3B9B5;
+                }
+            }
+        }
+    }
+    .third-part{
+        .location{
+            color: #FFC59E;
+            display: flex;
+            line-height: 100px;
+            img{
+                height: 50px;
+                margin: auto 0;
+            }
+        }
+    }
+}
