@@ -1,3 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
 
+header {
+  width: 100%;
+  display: flex;
+  padding: 50px 50px;
+  justify-content: space-between;
+}
+header .last-part ul {
+  display: flex;
+  gap: 20px;
+}
+header .last-part ul li {
+  list-style: none;
+  justify-content: space-between;
+  line-height: 100px;
+}
+header .last-part ul li a {
+  text-decoration: none;
+  color: #C3B9B5;
+}
+header .third-part .location {
+  color: #FFC59E;
+  display: flex;
+  line-height: 100px;
+}
+header .third-part .location img {
+  height: 50px;
+  margin: auto 0;
+}
 
 /*# sourceMappingURL=style.css.map */
