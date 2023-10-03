@@ -156,4 +156,61 @@ header .third-part .location img {
   width: 200px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+footer {
+  width: 100%;
+  background-color: #59443F;
+  height: 70vh;
+}
+footer .container {
+  width: 80%;
+  margin: auto;
+  padding: 40px 0px;
+  display: flex;
+  color: #fff;
+}
+footer .container p {
+  margin: 10px 0px;
+}
+footer .container .left .post-text {
+  position: absolute;
+  top: 5%;
+  left: 20%;
+}
+footer .left-b {
+  margin-top: 30%;
+}
+footer .midll-b {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+footer .left-r {
+  position: absolute;
+  left: 130%;
+  top: 0;
+}
+footer .right {
+  position: absolute;
+  right: 50px;
+}
+footer .right .imgs {
+  margin-top: 25%;
+}
+footer .right .end-text {
+  position: absolute;
+  top: 120%;
+}
+footer .right .end-text code {
+  position: absolute;
+  top: 450%;
+  display: flex;
+}
+
 /*# sourceMappingURL=style.css.map */
