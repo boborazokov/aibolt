@@ -22,16 +22,66 @@ header .last-part ul li {
 }
 header .last-part ul li a {
   text-decoration: none;
-  color: #C3B9B5;
+  color: #c3b9b5;
 }
 header .third-part .location {
-  color: #FFC59E;
+  color: #ffc59e;
   display: flex;
   line-height: 100px;
 }
 header .third-part .location img {
   height: 50px;
   margin: auto 0;
+}
+
+footer {
+  width: 100%;
+  background-color: #59443f;
+  height: 70vh;
+}
+footer .container {
+  width: 80%;
+  margin: auto;
+  padding: 40px 0px;
+  display: flex;
+  color: #fff;
+}
+footer .container p {
+  margin: 10px 0px;
+}
+footer .container .left .post-text {
+  position: absolute;
+  top: 5%;
+  left: 20%;
+}
+footer .left-b {
+  margin-top: 30%;
+}
+footer .midll-b {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+footer .left-r {
+  position: absolute;
+  left: 130%;
+  top: 0;
+}
+footer .right {
+  position: absolute;
+  right: 50px;
+}
+footer .right .imgs {
+  margin-top: 25%;
+}
+footer .right .end-text {
+  position: absolute;
+  top: 120%;
+}
+footer .right .end-text code {
+  position: absolute;
+  top: 450%;
+  display: flex;
 }
 
 .first-topik {
@@ -66,8 +116,8 @@ header .third-part .location img {
   margin: 80px 0;
   padding: 20px 50px;
   border: none;
-  background-color: #FFC59E;
-  box-shadow: 0px 4px 20px 0px #FFC59E;
+  background-color: #ffc59e;
+  box-shadow: 0px 4px 20px 0px #ffc59e;
   border-radius: 50px;
   color: white;
 }
@@ -84,7 +134,7 @@ header .third-part .location img {
   position: absolute;
 }
 .first-topik .image h3 {
-  color: #59443F;
+  color: #59443f;
   top: 43rem;
   right: 6rem;
   position: absolute;
@@ -118,13 +168,13 @@ header .third-part .location img {
   margin: 200px 0;
   text-align: start;
   margin: 0 auto;
-  color: #59443F;
+  color: #59443f;
 }
 .Group18 h4 {
-  color: #FFC59E;
+  color: #ffc59e;
 }
 .Group18 h3 {
-  color: #FFC59E;
+  color: #ffc59e;
 }
 
 .Group16 {
@@ -138,11 +188,11 @@ header .third-part .location img {
 
 .performance {
   text-align: center;
-  padding: 18rem 100px;
+  padding: 16rem 100px;
 }
 .performance h1:first-child {
   font-size: 8rem;
-  color: #59443F;
+  color: #59443f;
 }
 .performance h1 {
   font-size: 60px;
@@ -154,6 +204,70 @@ header .third-part .location img {
   margin-top: -50px;
   margin-right: -28rem;
   width: 200px;
+}
+
+.Group2 {
+  text-align: center;
+  padding: 100px 100px;
+}
+.Group2 .datas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.Group2 .datas .data {
+  text-align: start;
+  margin: 20px 35px;
+}
+.Group2 .datas .data img {
+  padding: 20px;
+}
+.Group2 .datas .data p {
+  width: 300px;
+  margin-left: 10px;
+}
+.Group2 .datas .data h1 {
+  font-weight: 200;
+}
+.Group2 .datas .data .img {
+  display: flex;
+}
+
+.Rectangle {
+  padding: 100px 100px;
+  background-color: #ffc59e;
+  color: white;
+}
+.Rectangle h1 {
+  font-size: 6rem;
+  font-weight: 200;
+  z-index: -1;
+  width: fit-content;
+}
+.Rectangle .browser-link {
+  display: flex;
+}
+.Rectangle .browser-link img:first-child {
+  margin-top: 8px;
+}
+.Rectangle .dog {
+  margin-top: -350px;
+  margin-left: 50rem;
+}
+.Rectangle .phone {
+  margin-left: 70rem;
+  margin-top: -700px;
+}
+
+.Contacts {
+  padding: 100px 0;
+  padding-left: 100px;
+  display: flex;
+}
+.Contacts img {
+  margin-right: 20px;
+}
+.Contacts .contact {
+  margin-right: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
