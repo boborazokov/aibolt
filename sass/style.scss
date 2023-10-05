@@ -255,6 +255,7 @@ footer {
     img:first-child {
       margin-top: 8px;
     }
+
   }
   .dog {
     margin-top: -350px;
@@ -277,3 +278,60 @@ footer {
     margin-right: 100px;
   }
 }
+
+footer {
+    width: 100%;
+    background-color: #59443F;
+    height: 70vh;
+
+    .container {
+        width: 80%;
+        margin: auto;
+        padding: 40px 0px;
+        display: flex;
+        color: #fff;
+        p{
+            margin: 10px 0px;
+        }
+        .left {
+            .post-text {
+                position: absolute;
+                top: 5%;
+                left: 20%;
+            }
+        }
+    }
+    .left-b {
+        margin-top: 30%;
+    }
+
+    .midll-b {
+        position: absolute;
+        top: 30%;
+        left: 40%;
+    }
+    .left-r {
+        position: absolute;
+        left: 130%;
+        top: 0;
+    }
+
+    .right {
+        position: absolute;
+        right: 50px;
+        .imgs {
+            margin-top: 25%;
+        }
+
+        .end-text {
+            position: absolute;
+            top: 120%;
+            code {
+                position: absolute;
+                top: 450%;
+                display: flex;
+            }
+        }
+    }
+}
+
