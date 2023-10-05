@@ -67,18 +67,11 @@ footer .left-r {
   left: 130%;
   top: 0;
 }
-footer .right {
-  position: absolute;
-  right: 50px;
-}
-footer .right .imgs {
-  margin-top: 25%;
-}
-footer .right .end-text {
+footer .end-text {
   position: absolute;
   top: 120%;
 }
-footer .right .end-text code {
+footer .end-text code {
   position: absolute;
   top: 450%;
   display: flex;
