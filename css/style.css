@@ -158,3 +158,81 @@ header .third-part .location img {
 
 /*# sourceMappingURL=style.css.map */
 
+.box h1{
+  color: #080606;
+
+  /* заголовок_главная */
+  font-family: SchoolBook;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110px; /* 137.5% */
+  margin-top: 154.97px;
+  margin-left: 230px;
+}
+
+.box-1{
+  color: var(--brown-light, #C3B9B5);
+
+  /* РАЗДЕЛ */
+  font-family: Futura New;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+  margin-top: 30px;
+  margin-left: 230px;
+}
+
+.box-2{
+  width: 400px;
+  color: var(--brown-light, #C3B9B5);
+
+  /* РАЗДЕЛ */
+  font-family: Futura New;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+  margin-top: 30px;
+  margin-left: 230px;
+}
+
+.box-3{
+  color: var(--brown-light, #C3B9B5);
+
+  /* РАЗДЕЛ */
+  font-family: Futura New;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+  margin-top: 30px;
+  margin-left: 230px;
+}
+
+.box-4{
+  color: var(--brown-light, #C3B9B5);
+
+  /* РАЗДЕЛ */
+  font-family: Futura New;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+  margin-top: 30px;
+  margin-left: 230px;
+}
+
+.box-5{
+  color: var(--brown-light, #C3B9B5);
+
+  /* РАЗДЕЛ */
+  font-family: Futura New;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+  margin-top: 30px;
+  margin-left: 230px;
+}
