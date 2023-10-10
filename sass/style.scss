@@ -146,14 +146,14 @@ footer {
   }
 }
 .cards {
-  padding: 150px 15rem;
+  padding: 150px 8rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
   .card {
     padding: 10px;
-    width: 270px;
-    height: 170px;
+    width: 350px;
+    height: 200px;
     border: 1px solid #dbd7d7;
     border-radius: 15px;
     img {
