@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -156,18 +157,12 @@ header .third-part .location img {
   width: 200px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-
 footer {
   width: 100%;
   background-color: #59443F;
   height: 70vh;
-  }
+  margin-top: 110%;
+}
 footer .container {
   width: 80%;
   margin: auto;
@@ -188,7 +183,7 @@ footer .left-b {
 }
 footer .midll-b {
   position: absolute;
-  top: 30%;
+  top: 400%;
   left: 40%;
 }
 footer .left-r {
@@ -213,14 +208,129 @@ footer .right .end-text code {
   display: flex;
 }
 
-/*# sourceMappingURL=style.css.map */
+.container2 {
+  width: 90%;
+  margin: auto;
+}
+.container2 .right-m {
+  position: absolute;
+  left: 40%;
+  top: 25%;
+}
+.container2 .card2 {
+  display: flex;
+  margin: 40px 0px;
+}
+.container2 .card2 .l-text {
+  margin-left: 2%;
+  padding: 30px 0px;
+}
 
-.box h1{
-  color: var(--text, #080606);
-  /* заголовок_главная */
+main {
+  display: flex;
+  gap: 200px;
+  margin: 50px 50px;
+}
+main div h2 {
+  font-family: SchoolBook;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #080606;
+}
+main pre {
+  font-family: sans-serif;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+main .yarom_tomon {
+  width: 100%;
+  overflow: auto;
+}
+main .doctors {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+main .doctors div {
+  width: calc(25% - 20px);
+  padding: 10px 20px;
+  top: 395px;
+  left: 781px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.1019607843);
+}
+
+.Back {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  color: #FFC59E;
+}
+
+nav {
+  height: 100%;
+}
+nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+nav ul a {
+  text-decoration: none;
+  color: #C3B9B5;
+  font-family: Futura New;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+nav h1 {
   font-family: SchoolBook;
   font-size: 80px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 110px; /* 137.5% */
+  line-height: 110px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #080606;
 }
+
+.lecheniya_img {
+  width: 909px;
+  height: 424px;
+  top: 1472px;
+  left: 781px;
+  border-radius: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%; /* Увеличиваем ширину таблицы */
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Добавляем тень */
+  background-color: #fff; /* Цвет фона таблицы */
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 20px; /* Увеличиваем отступы внутри ячеек */
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+/*# sourceMappingURL=style.css.map */
