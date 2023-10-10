@@ -83,7 +83,7 @@ footer .end-text code {
 }
 .first-topik .list {
   padding: 25px 110px;
-  width: fit-content;
+    width: fit-content;
 }
 .first-topik .list ul li {
   list-style: none;
@@ -330,6 +330,6 @@ footer .right .end-text code {
 .container2 .card2 .l-text {
   margin-left: 2%;
   padding: 30px 0px;
-}
+} 
 
 /*# sourceMappingURL=style.css.map */
